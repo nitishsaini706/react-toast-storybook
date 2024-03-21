@@ -1,0 +1,44 @@
+.toast {
+  display: flex;
+  align-items: center;
+  padding: 16px 24px;
+  margin: 8px;
+  border-radius: 8px;
+  background: #333;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.toast-success {
+  background-color: #28a745; /* Green for success */
+}
+
+.toast-info {
+  background-color: #17a2b8; /* Blue for info */
+}
+
+.toast-message {
+  flex-grow: 1;
+  margin-left: 8px;
+}
+
+.toast-icon {
+  color: white;
+  width: 32px;
+  height: 32px;
+}
+
+.toast-close-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0 0 0 auto; /* Align to the right */
+  cursor: pointer;
+}
+
+.toast-close-icon {
+  color: white;
+  width: 24px;
+  height: 24px;
+}

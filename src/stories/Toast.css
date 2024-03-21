@@ -1,0 +1,80 @@
+/* Toast.css */
+
+.toast {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  padding: 5px 10px 5px 20px!important;
+  margin: 10px 0;
+  color: #fff;
+  background-color: #282829;
+  font-family: sans-serif;
+  height: 56px;
+  width: 343px;
+}
+
+.toast-icon {
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+}
+.toast-message{
+  max-width: 170px;
+}
+.bar{
+  height: 30px;
+  width: 2px;
+  background-color:#424242;
+  margin-right:10px;
+}
+.toast-body {
+  flex-grow: 1;
+}
+
+.toast-action-btn {
+  height:40px;
+  min-width:50px;
+  cursor: pointer;
+}
+.toast-title {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.toast-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right:10px;
+}
+span{
+display: flex;
+align-items: center;
+text-wrap: wrap;
+margin-right:25px;
+margin-left:12px;
+}
+
+.toast-action-close {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  
+}
+
+/* .toast-info {
+  background-color: #007bff;
+}
+
+.toast-warning {
+  background-color: #ffc107;
+}
+
+.toast-error {
+  background-color: #dc3545;
+}
+
+.toast-success {
+  background-color: #28a745;
+} */
